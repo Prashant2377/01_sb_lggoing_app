@@ -12,8 +12,6 @@ public class MsgRestController {
 	
 	@Autowired
 	private MsgServices msgServices;
-
-	String abc="ashokit";
 	
 	@GetMapping("/welcome")
 	public String getMsg() {
