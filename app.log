@@ -1,0 +1,16 @@
+2026-04-15T16:12:53.016+05:30  INFO 9736 --- [01-SB-Logging-App] [main] in.ashokit.Application                   : Starting Application using Java 21.0.10 with PID 9736 (C:\Users\Shrikant\Documents\workspace-spring-tools-for-eclipse-5.1.1.RELEASE\01-SB-Logging-App\target\classes started by Shrikant in C:\Users\Shrikant\Documents\workspace-spring-tools-for-eclipse-5.1.1.RELEASE\01-SB-Logging-App)
+2026-04-15T16:12:53.031+05:30  INFO 9736 --- [01-SB-Logging-App] [main] in.ashokit.Application                   : No active profile set, falling back to 1 default profile: "default"
+2026-04-15T16:12:54.483+05:30  INFO 9736 --- [01-SB-Logging-App] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-04-15T16:12:54.506+05:30  INFO 9736 --- [01-SB-Logging-App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-15T16:12:54.506+05:30  INFO 9736 --- [01-SB-Logging-App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-15T16:12:54.589+05:30  INFO 9736 --- [01-SB-Logging-App] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1451 ms
+2026-04-15T16:12:55.137+05:30  INFO 9736 --- [01-SB-Logging-App] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-04-15T16:12:55.147+05:30  INFO 9736 --- [01-SB-Logging-App] [main] in.ashokit.Application                   : Started Application in 2.902 seconds (process running for 4.163)
+2026-04-15T16:13:04.074+05:30  INFO 9736 --- [01-SB-Logging-App] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-15T16:13:04.076+05:30  INFO 9736 --- [01-SB-Logging-App] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-15T16:13:04.083+05:30  INFO 9736 --- [01-SB-Logging-App] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-04-15T16:13:04.237+05:30  INFO 9736 --- [01-SB-Logging-App] [http-nio-9090-exec-2] in.ashokit.services.MsgServices          : Get welcome msg Satrted-----
+2026-04-15T16:13:04.239+05:30  INFO 9736 --- [01-SB-Logging-App] [http-nio-9090-exec-2] in.ashokit.services.MsgServices          : Get welcome msg ended-----
+2026-04-15T17:55:12.342+05:30  INFO 9736 --- [01-SB-Logging-App] [RMI TCP Connection(112)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-04-15T17:55:12.481+05:30  INFO 9736 --- [01-SB-Logging-App] [RMI TCP Connection(112)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-15T17:55:12.524+05:30  INFO 9736 --- [01-SB-Logging-App] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
